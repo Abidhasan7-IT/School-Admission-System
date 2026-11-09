@@ -1,0 +1,1 @@
+dotnet run --project backend/SchoolAdmission.API --urls http://localhost:8080

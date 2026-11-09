@@ -9,3 +9,15 @@ D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\
 D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\refint\SchoolAdmission.Core.dll
 D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\SchoolAdmission.Core.pdb
 D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\ref\SchoolAdmission.Core.dll
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\bin\Debug\net9.0\SchoolAdmission.Core.deps.json
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\bin\Debug\net9.0\SchoolAdmission.Core.dll
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\bin\Debug\net9.0\SchoolAdmission.Core.pdb
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\SchoolAdmission.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\SchoolAdmission.Core.AssemblyInfoInputs.cache
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\SchoolAdmission.Core.AssemblyInfo.cs
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\SchoolAdmission.Core.csproj.CoreCompileInputs.cache
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\SchoolAdmission.Core.sourcelink.json
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\SchoolAdmission.Core.dll
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\refint\SchoolAdmission.Core.dll
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\SchoolAdmission.Core.pdb
+D:\ASP .net\School-Admission-System\SchoolAdmissionSystem\backend\SchoolAdmission.Core\obj\Debug\net9.0\ref\SchoolAdmission.Core.dll

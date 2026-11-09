@@ -1,0 +1,69 @@
+name: school-admission
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: school_admission
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    # Host port 5433 avoids clashing with a PostgreSQL already installed on your machine on 5432.
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d school_admission"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  backend:
+    build: ./backend
+    environment:
+      ConnectionStrings__DefaultConnection: Host=db;Port=5432;Database=school_admission;Username=postgres;Password=postgres
+      HOLD_DURATION_SECONDS: "600"
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    environment:
+      # The URL the BROWSER uses to reach the backend. Change it here, then run:
+      #   docker compose up -d frontend        (no rebuild needed)
+      API_BASE_URL: http://localhost:8080
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  # Run backend tests:   docker compose --profile test run --rm backend-tests
+  backend-tests:
+    profiles: ["test"]
+    image: mcr.microsoft.com/dotnet/sdk:8.0
+    working_dir: /src
+    volumes:
+      - ./backend:/src
+    environment:
+      TEST_DATABASE_CONNECTION: Host=db;Port=5432;Database=school_admission_test;Username=postgres;Password=postgres
+    command: dotnet test SchoolAdmission.Tests
+    depends_on:
+      db:
+        condition: service_healthy
+
+  # Run frontend tests:  docker compose --profile test run --rm frontend-tests
+  frontend-tests:
+    profiles: ["test"]
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+    command: sh -c "npm install && npm test"
+
+volumes:
+  pgdata:

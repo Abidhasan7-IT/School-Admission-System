@@ -1,133 +1,32 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using SchoolAdmission.API.Enums;
-using SchoolAdmission.Core.Entities;
-using SchoolAdmission.Infrastructure.Data;
+using Microsoft.AspNetCore.Mvc;
+using SchoolAdmission.Api.Contracts;
+using SchoolAdmission.Api.Services;
 
-namespace SchoolAdmission.API.Controllers;
+namespace SchoolAdmission.Api.Controllers;
 
 [ApiController]
 [Route("classes")]
-public class ClassesController : ControllerBase
+public class ClassesController(AdmissionService admissions) : ControllerBase
 {
-    private readonly ApplicationDbContext _db;
-
-    public ClassesController(ApplicationDbContext db)
-    {
-        _db = db;
-    }
-
-    // POST /classes
     [HttpPost]
-    public async Task<IActionResult> CreateClass(
-        [FromBody] CreateClassRequest request)
+    public async Task<IActionResult> Create([FromBody] CreateClassRequest request)
     {
-        if (string.IsNullOrWhiteSpace(request.Name) ||
-            request.TotalSeats <= 0)
-        {
-            return BadRequest("Invalid class name or seat capacity.");
-        }
-
-        var schoolClass = new SchoolClass
-        {
-            Name = request.Name.Trim(),
-            TotalSeats = request.TotalSeats
-        };
-
-        _db.Classes.Add(schoolClass);
-        await _db.SaveChangesAsync();
-
-        return CreatedAtAction(
-            nameof(GetClass),
-            new { classId = schoolClass.Id },
-            schoolClass
-        );
+        var created = await admissions.CreateClassAsync(request.Name ?? string.Empty, request.TotalSeats);
+        return StatusCode(StatusCodes.Status201Created, created);
     }
 
-    // GET /classes
     [HttpGet]
-    public async Task<IActionResult> GetClasses()
+    public async Task<IActionResult> List() => Ok(await admissions.ListClassesAsync());
+
+    [HttpGet("{classId}")]
+    public async Task<IActionResult> Get(string classId) => Ok(await admissions.GetClassAsync(classId));
+
+    [HttpPost("{classId}/holds")]
+    public async Task<IActionResult> CreateHold(
+        string classId,
+        [FromHeader(Name = "X-Student-Id")] string? studentId)
     {
-        var now = DateTime.UtcNow;
-
-        var classes = await _db.Classes
-            .AsNoTracking()
-            .Select(c => new
-            {
-                c.Id,
-                c.Name,
-                c.TotalSeats,
-
-                HeldSeats = c.AdmissionHolds.Count(h =>
-                    h.Status == HoldStatus.HELD &&
-                    h.ExpiresAt > now),
-
-                ConfirmedSeats = c.AdmissionHolds.Count(h =>
-                    h.Status == HoldStatus.CONFIRMED)
-            })
-            .ToListAsync();
-
-        var result = classes.Select(c => new
-        {
-            c.Id,
-            c.Name,
-            c.TotalSeats,
-            c.HeldSeats,
-            c.ConfirmedSeats,
-            AvailableSeats = Math.Max(
-                0,
-                c.TotalSeats - c.HeldSeats - c.ConfirmedSeats)
-        });
-
-        return Ok(result);
+        var hold = await admissions.CreateHoldAsync(classId, StudentId.Require(studentId));
+        return StatusCode(StatusCodes.Status201Created, hold);
     }
-
-    // GET /classes/{classId}
-    [HttpGet("{classId:guid}")]
-    public async Task<IActionResult> GetClass(Guid classId)
-    {
-        var now = DateTime.UtcNow;
-
-        var schoolClass = await _db.Classes
-            .AsNoTracking()
-            .Where(c => c.Id == classId)
-            .Select(c => new
-            {
-                c.Id,
-                c.Name,
-                c.TotalSeats,
-
-                HeldSeats = c.AdmissionHolds.Count(h =>
-                    h.Status == HoldStatus.HELD &&
-                    h.ExpiresAt > now),
-
-                ConfirmedSeats = c.AdmissionHolds.Count(h =>
-                    h.Status == HoldStatus.CONFIRMED)
-            })
-            .FirstOrDefaultAsync();
-
-        if (schoolClass == null)
-            return NotFound("Class not found.");
-
-        return Ok(new
-        {
-            schoolClass.Id,
-            schoolClass.Name,
-            schoolClass.TotalSeats,
-            schoolClass.HeldSeats,
-            schoolClass.ConfirmedSeats,
-            AvailableSeats = Math.Max(
-                0,
-                schoolClass.TotalSeats -
-                schoolClass.HeldSeats -
-                schoolClass.ConfirmedSeats)
-        });
-    }
-}
-
-public class CreateClassRequest
-{
-    public string Name { get; set; } = string.Empty;
-
-    public int TotalSeats { get; set; }
 }

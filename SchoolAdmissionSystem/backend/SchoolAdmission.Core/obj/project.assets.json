@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP .net\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Core\\SchoolAdmission.Core.csproj",
+      "projectUniqueName": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Core\\SchoolAdmission.Core.csproj",
       "projectName": "SchoolAdmission.Core",
-      "projectPath": "D:\\ASP .net\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Core\\SchoolAdmission.Core.csproj",
+      "projectPath": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Core\\SchoolAdmission.Core.csproj",
       "packagesPath": "C:\\Users\\This pc\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP .net\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Core\\obj\\",
+      "outputPath": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,4 +1,6 @@
-﻿namespace SchoolAdmission.Tests;
+﻿using Xunit;
+
+namespace SchoolAdmission.Tests;
 
 public class UnitTest1
 {
