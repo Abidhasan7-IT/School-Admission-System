@@ -1,0 +1,17 @@
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\bin\Debug\net9.0\SchoolAdmission.Infrastructure.deps.json
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\bin\Debug\net9.0\SchoolAdmission.Infrastructure.dll
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\bin\Debug\net9.0\SchoolAdmission.Infrastructure.pdb
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\bin\Debug\net9.0\SchoolAdmission.Core.dll
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\bin\Debug\net9.0\SchoolAdmission.Core.pdb
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\obj\Debug\net9.0\SchoolAdmission.Infrastructure.csproj.AssemblyReference.cache
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\obj\Debug\net9.0\SchoolAdmission.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\obj\Debug\net9.0\SchoolAdmission.Infrastructure.AssemblyInfoInputs.cache
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\obj\Debug\net9.0\SchoolAdmission.Infrastructure.AssemblyInfo.cs
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\obj\Debug\net9.0\SchoolAdmission.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\obj\Debug\net9.0\SchoolAd.403E7815.Up2Date
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\obj\Debug\net9.0\SchoolAdmission.Infrastructure.dll
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\obj\Debug\net9.0\refint\SchoolAdmission.Infrastructure.dll
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\obj\Debug\net9.0\SchoolAdmission.Infrastructure.pdb
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\obj\Debug\net9.0\ref\SchoolAdmission.Infrastructure.dll
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\bin\Debug\net9.0\SchoolAdmission.Infrastructure.runtimeconfig.json
+D:\ASP .net\SchoolAdmissionSystem\backend\SchoolAdmission.Infrastructure\obj\Debug\net9.0\SchoolAdmission.Infrastructure.genruntimeconfig.cache
