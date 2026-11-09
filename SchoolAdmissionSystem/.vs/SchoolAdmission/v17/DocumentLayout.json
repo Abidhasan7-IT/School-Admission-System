@@ -3,20 +3,64 @@
   "WorkspaceRootPath": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\services\\studentid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\services\\studentid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\services\\holdexpiryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\services\\holdexpiryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\services\\admissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\services\\admissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\services\\admissionoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\services\\admissionoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75B134AE-918D-4B3D-BC68-B2F4DFB7FC73}|backend\\SchoolAdmission.Infrastructure\\SchoolAdmission.Infrastructure.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75B134AE-918D-4B3D-BC68-B2F4DFB7FC73}|backend\\SchoolAdmission.Infrastructure\\SchoolAdmission.Infrastructure.csproj|solutionrelative:backend\\schooladmission.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9A5F191-D74D-4CD7-98E7-A65DE95BB92D}|backend\\SchoolAdmission.Core\\SchoolAdmission.Core.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9A5F191-D74D-4CD7-98E7-A65DE95BB92D}|backend\\SchoolAdmission.Core\\SchoolAdmission.Core.csproj|solutionrelative:backend\\schooladmission.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\infrastructure\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\infrastructure\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\infrastructure\\apiexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\infrastructure\\apiexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\domain\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\domain\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94E2C999-49A5-49C5-967D-C5F29CC7E2B5}|backend\\SchoolAdmission.Tests\\SchoolAdmission.Tests.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,28 +75,12 @@
       "RelativeMoniker": "D:0:0:{94E2C999-49A5-49C5-967D-C5F29CC7E2B5}|backend\\SchoolAdmission.Tests\\SchoolAdmission.Tests.csproj|solutionrelative:backend\\schooladmission.tests\\concurrencytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\domain\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\domain\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\controllers\\holdscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\controllers\\holdscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\contracts\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\contracts\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\infrastructure\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\infrastructure\\apiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8FDDF96E-9321-4822-8AB4-F8B9BC146932}|backend\\SchoolAdmission.API\\SchoolAdmission.API.csproj|solutionrelative:backend\\schooladmission.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{94E2C999-49A5-49C5-967D-C5F29CC7E2B5}|backend\\SchoolAdmission.Tests\\SchoolAdmission.Tests.csproj|d:\\asp .net\\school-admission-system\\schooladmissionsystem\\backend\\schooladmission.tests\\schooladmission.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -66,24 +94,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContextFactory.cs",
-              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Data\\AppDbContextFactory.cs",
-              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Data\\AppDbContextFactory.cs",
-              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Data\\AppDbContextFactory.cs",
-              "RelativeToolTip": "backend\\SchoolAdmission.API\\Data\\AppDbContextFactory.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StudentId.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Services\\StudentId.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Services\\StudentId.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Services\\StudentId.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.API\\Services\\StudentId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T12:34:55.933Z",
+              "WhenOpened": "2026-11-09T13:52:45.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HoldExpiryService.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Services\\HoldExpiryService.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Services\\HoldExpiryService.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Services\\HoldExpiryService.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.API\\Services\\HoldExpiryService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T13:52:37.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AdmissionService.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Services\\AdmissionService.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Services\\AdmissionService.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Services\\AdmissionService.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.API\\Services\\AdmissionService.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T13:52:26.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdmissionOptions.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Services\\AdmissionOptions.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Services\\AdmissionOptions.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Services\\AdmissionOptions.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.API\\Services\\AdmissionOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T13:52:22.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.Infrastructure\\Class1.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T13:52:16.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.Core\\Class1.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Core\\Class1.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T13:52:08.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApiExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Infrastructure\\ApiExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Infrastructure\\ApiExceptionMiddleware.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Infrastructure\\ApiExceptionMiddleware.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.API\\Infrastructure\\ApiExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T13:50:42.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Data\\AppDbContext.cs",
@@ -96,7 +202,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
+              "Title": "ClassesController.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Controllers\\ClassesController.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Controllers\\ClassesController.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Controllers\\ClassesController.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.API\\Controllers\\ClassesController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T06:22:27.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.API\\Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvxsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T12:34:55.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "SchoolAdmission.Tests",
               "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Tests\\SchoolAdmission.Tests.csproj",
               "RelativeDocumentMoniker": "backend\\SchoolAdmission.Tests\\SchoolAdmission.Tests.csproj",
@@ -113,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Tests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "backend\\SchoolAdmission.Tests\\UnitTest1.cs",
@@ -125,83 +257,31 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ApplicationRulesTests.cs",
-              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Tests\\ApplicationRulesTests.cs",
-              "RelativeDocumentMoniker": "backend\\SchoolAdmission.Tests\\ApplicationRulesTests.cs",
-              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Tests\\ApplicationRulesTests.cs",
-              "RelativeToolTip": "backend\\SchoolAdmission.Tests\\ApplicationRulesTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T11:36:40.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ConcurrencyTests.cs",
-              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Tests\\ConcurrencyTests.cs",
-              "RelativeDocumentMoniker": "backend\\SchoolAdmission.Tests\\ConcurrencyTests.cs",
-              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Tests\\ConcurrencyTests.cs",
-              "RelativeToolTip": "backend\\SchoolAdmission.Tests\\ConcurrencyTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T11:37:33.233Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Program.cs",
               "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Program.cs",
               "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Program.cs",
               "RelativeToolTip": "backend\\SchoolAdmission.API\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxAAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-09T05:31:27.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HoldsController.cs",
-              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Controllers\\HoldsController.cs",
-              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Controllers\\HoldsController.cs",
-              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Controllers\\HoldsController.cs",
-              "RelativeToolTip": "backend\\SchoolAdmission.API\\Controllers\\HoldsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T11:28:28.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Dtos.cs",
-              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Contracts\\Dtos.cs",
-              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Contracts\\Dtos.cs",
-              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Contracts\\Dtos.cs",
-              "RelativeToolTip": "backend\\SchoolAdmission.API\\Contracts\\Dtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T11:18:00.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\appsettings.json",
               "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\appsettings.json",
-              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\appsettings.json*",
-              "RelativeToolTip": "backend\\SchoolAdmission.API\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\appsettings.json",
+              "RelativeToolTip": "backend\\SchoolAdmission.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-11-09T05:21:59.849Z",
               "EditorCaption": ""
@@ -214,40 +294,14 @@
               "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Infrastructure\\ApiException.cs",
               "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Infrastructure\\ApiException.cs",
               "RelativeToolTip": "backend\\SchoolAdmission.API\\Infrastructure\\ApiException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-09T11:17:42.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Models.cs",
-              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Domain\\Models.cs",
-              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Domain\\Models.cs",
-              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Domain\\Models.cs",
-              "RelativeToolTip": "backend\\SchoolAdmission.API\\Domain\\Models.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T11:17:29.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClassesController.cs",
-              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Controllers\\ClassesController.cs",
-              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Controllers\\ClassesController.cs",
-              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Controllers\\ClassesController.cs",
-              "RelativeToolTip": "backend\\SchoolAdmission.API\\Controllers\\ClassesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-09T06:22:27.934Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\appsettings.Development.json",
@@ -255,7 +309,73 @@
               "RelativeToolTip": "backend\\SchoolAdmission.API\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-09T05:22:14.098Z"
+              "WhenOpened": "2026-11-09T05:22:14.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationRulesTests.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Tests\\ApplicationRulesTests.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.Tests\\ApplicationRulesTests.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Tests\\ApplicationRulesTests.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.Tests\\ApplicationRulesTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:36:40.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ConcurrencyTests.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Tests\\ConcurrencyTests.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.Tests\\ConcurrencyTests.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.Tests\\ConcurrencyTests.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.Tests\\ConcurrencyTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:37:33.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Models.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Domain\\Models.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Domain\\Models.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Domain\\Models.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.API\\Domain\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:17:29.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HoldsController.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Controllers\\HoldsController.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Controllers\\HoldsController.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Controllers\\HoldsController.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.API\\Controllers\\HoldsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:28:28.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Dtos.cs",
+              "DocumentMoniker": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Contracts\\Dtos.cs",
+              "RelativeDocumentMoniker": "backend\\SchoolAdmission.API\\Contracts\\Dtos.cs",
+              "ToolTip": "D:\\ASP .net\\School-Admission-System\\SchoolAdmissionSystem\\backend\\SchoolAdmission.API\\Contracts\\Dtos.cs",
+              "RelativeToolTip": "backend\\SchoolAdmission.API\\Contracts\\Dtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:18:00.133Z",
+              "EditorCaption": ""
             }
           ]
         }

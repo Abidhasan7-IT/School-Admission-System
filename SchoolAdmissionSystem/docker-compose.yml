@@ -1,69 +1,50 @@
-name: school-admission
+# Comments are provided throughout this file to help you get started.
+# If you need more help, visit the Docker Compose reference guide at
+# https://docs.docker.com/go/compose-spec-reference/
 
+# Here the instructions define your application as a service called "server".
+# This service is built from the Dockerfile in the current directory.
+# You can add other services your application may depend on here, such as a
+# database or a cache. For examples, see the Awesome Compose repository:
+# https://github.com/docker/awesome-compose
 services:
-  db:
-    image: postgres:16-alpine
-    environment:
-      POSTGRES_DB: school_admission
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-    # Host port 5433 avoids clashing with a PostgreSQL already installed on your machine on 5432.
+  server:
+    build:
+      context: .
+      target: final
     ports:
-      - "5433:5432"
-    volumes:
-      - pgdata:/var/lib/postgresql/data
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres -d school_admission"]
-      interval: 5s
-      timeout: 3s
-      retries: 20
+      - 8080:8080
 
-  backend:
-    build: ./backend
-    environment:
-      ConnectionStrings__DefaultConnection: Host=db;Port=5432;Database=school_admission;Username=postgres;Password=postgres
-      HOLD_DURATION_SECONDS: "600"
-    ports:
-      - "8080:8080"
-    depends_on:
-      db:
-        condition: service_healthy
-    restart: unless-stopped
+# The commented out section below is an example of how to define a PostgreSQL
+# database that your application can use. `depends_on` tells Docker Compose to
+# start the database before your application. The `db-data` volume persists the
+# database data between container restarts. The `db-password` secret is used
+# to set the database password. You must create `db/password.txt` and add
+# a password of your choosing to it before running `docker compose up`.
+#     depends_on:
+#       db:
+#         condition: service_healthy
+#   db:
+#     image: postgres
+#     restart: always
+#     user: postgres
+#     secrets:
+#       - db-password
+#     volumes:
+#       - db-data:/var/lib/postgresql/data
+#     environment:
+#       - POSTGRES_DB=example
+#       - POSTGRES_PASSWORD_FILE=/run/secrets/db-password
+#     expose:
+#       - 5432
+#     healthcheck:
+#       test: [ "CMD", "pg_isready" ]
+#       interval: 10s
+#       timeout: 5s
+#       retries: 5
+# volumes:
+#   db-data:
+# secrets:
+#   db-password:
+#     file: db/password.txt
 
-  frontend:
-    build: ./frontend
-    environment:
-      # The URL the BROWSER uses to reach the backend. Change it here, then run:
-      #   docker compose up -d frontend        (no rebuild needed)
-      API_BASE_URL: http://localhost:8080
-    ports:
-      - "3000:80"
-    depends_on:
-      - backend
-    restart: unless-stopped
-
-  # Run backend tests:   docker compose --profile test run --rm backend-tests
-  backend-tests:
-    profiles: ["test"]
-    image: mcr.microsoft.com/dotnet/sdk:8.0
-    working_dir: /src
-    volumes:
-      - ./backend:/src
-    environment:
-      TEST_DATABASE_CONNECTION: Host=db;Port=5432;Database=school_admission_test;Username=postgres;Password=postgres
-    command: dotnet test SchoolAdmission.Tests
-    depends_on:
-      db:
-        condition: service_healthy
-
-  # Run frontend tests:  docker compose --profile test run --rm frontend-tests
-  frontend-tests:
-    profiles: ["test"]
-    image: node:20-alpine
-    working_dir: /app
-    volumes:
-      - ./frontend:/app
-    command: sh -c "npm install && npm test"
-
-volumes:
-  pgdata:
